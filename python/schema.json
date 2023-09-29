@@ -1,0 +1,42 @@
+{
+    "topics": {
+        "_id": {
+            "type": "ObjectId"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "flashcards": {
+            "type": "Object Array"
+        },
+        "createdAt":{
+            "type": "Date"
+        },
+        "updatedAt": {
+            "type":"Date"
+        }
+    },
+    "flashcards": {
+        "_id":{
+            "type":"ObjectId"
+        },
+        "question": {
+            "type": "string"
+        },
+        "answer": {
+            "type": "string"
+        },
+        "correct":{
+            "type": "boolean"
+        },
+        "createdAt":{
+            "type": "Date"
+        },
+        "updatedAt": {
+            "type":"Date"
+        }
+    }
+}
